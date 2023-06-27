@@ -491,16 +491,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "near-admin"
-version = "0.1.0"
-dependencies = [
- "near-sdk",
- "num",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "near-crypto"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -667,6 +657,16 @@ dependencies = [
  "sha2 0.9.9",
  "sha3",
  "zeropool-bn",
+]
+
+[[package]]
+name = "near_admin"
+version = "0.1.0"
+dependencies = [
+ "near-sdk",
+ "num",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
